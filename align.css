@@ -1,0 +1,40 @@
+body {
+    
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    background-color: lightseagreen;
+}
+.main div {
+  
+    height: 50%px;
+    width: 50%;
+    text-align: center;
+}
+.one {
+    background-color: blue;
+    color: black;
+
+}
+.two {
+    background-color: lawngreen;
+    color: red;
+}
+.three {
+    background-color: lavenderblush;
+    color: chocolate;
+}
+.four {
+    background-color: orchid;
+    color: darkorange;
+}
+
+
+
+
+
+

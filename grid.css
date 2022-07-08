@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightcyan;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 100px 60px;
+    padding: 20%;
+    gap: 20px
+    
+}
+
+.item {
+    background-color: azure;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    transition:scale (2sec);
+}
+
+.item:nth-child(1) {
+    font-size: 50px;
+    color: darkblue;
+    grid-row: span 2;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+   
+    background-color: cornflowerblue;
+   border: 1px solid #eee8aa;
+   height: 100px;
+   
+   
+}
+
+
+.container > div {
+    flex: 1;
+    padding: 20px;
+   
+}
+.container  .about {
+    flex: 2;
+}
+
+.home {
+    
+    background-color: darkcyan;
+    color: brown;
+    align-self: flex-end;
+}
+.logo {
+    background-color: lawngreen;
+    color: yellow;
+
+}
+
+.about {
+    background-color: gold;
+    color: blue;
+}
+
+

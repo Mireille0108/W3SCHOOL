@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    background-image: linear-gradient(to top right, yellow, skyblue, pink, skyblue, blue);
+    margin-left:500px ;
+    display: flex;
+    text-align:center ;
+    align-items: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    transform: rotate(20deg);
+}

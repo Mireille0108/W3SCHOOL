@@ -1,0 +1,38 @@
+body {
+    
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-container {
+    height: 150px;
+    
+    background: linear-gradient(350deg, green 0%, yellow 100%);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 1000%
+}
+
+img {
+height: 100px;
+width: 100px;
+position: relative;
+z-index: 10px;
+}
+

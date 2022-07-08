@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    padding:0px ;
+}
+h1 {
+    writing-mode: vertical-rl;
+    text-shadow: 2px 2px red;
+}
+
+h2 {
+    writing-mode: horizontal-tb;
+    word-wrap: break-word;
+    transform: rotate(20deg);
+    color: plum;
+   
+   
+
+}
+
+
+h3 {
+    transform: scale(2, 3);
+    transform: skewX(20deg);
+    transform: skewY(-10deg);
+}
+h4 {
+    transform: skew(20deg,10ded);
+}
+h5 {
+    transform: matrix(1, 0, 0.5, 0, 0.5, 2);
+}
+
+div {
+    box-shadow:  5px  10px;
+    color: darkblue;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+   
+}
+span {
+    font-weight: bold;
+}
+p {
+    transition: width 2s, height 2s;
+}
+
+h5 {
+    background-image: radial-gradient(blue, white);
+    border-radius: 50%;
+    height: 100px;
+    width: 150px;
+}
+ 
+image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
