@@ -10,10 +10,14 @@ body {
     text-align: center;
 }
 .main {
+    display:grid;
+     grid-template-columns:4;
+    height: 150px;
+}
+
+.main > p {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
 }
 img {
     display: flex;
